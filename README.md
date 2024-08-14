@@ -32,6 +32,7 @@ Command to add and commit:
 - git branch < New Branch > : to create a new branch (the current branch will not change)
 - git checkout < branch/Sha1 > -> to switch to the branch or the commit
 - git merge < branch-name > -> merge the Branch into the main
+- git branch -d < branch-name > -> to delete the branch
 
 ### File tracking statuses
 - Untracked
