@@ -40,6 +40,13 @@ Command to add and commit:
 - Modified
 - Staged
 
+  ## steps to clone to this repo:
+  -> mkdir < folder name > -> to create a folder locally
+  -> git init -> to initialize git
+  -> git branch -m main -> to change the master branch name to main
+  -> git remote add origin < The SSH URl > -> to connect the origin
+  -> git pull origin main -> to pull the remote repo and track the remote repo.
+
 
 
 
