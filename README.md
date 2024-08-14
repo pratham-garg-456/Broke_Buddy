@@ -27,6 +27,13 @@
 Command to add and commit:
 git add -> to add the file to the stage area
 git commit -m "Commit message" -> to add the file to the git repository
+git commit -a -m "Commit message" -> to do both stage and commit at same time
+
+### File tracking statuses
+- Untracked
+- Unmodified
+- Modified
+- Staged
 
 
 
