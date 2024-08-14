@@ -10,6 +10,7 @@
 - git config -- global user.email <Email>: set author email
 - git config --list: to check whether the author name and email exist or not(must be there before committing if not then add it).
 - git log: to see the history of the commits.
+- git log --graph: to see the history of the commits in tree form(in case some commits have multiple parents)
 
 ### Git Terminologies -> 
 
@@ -30,7 +31,7 @@ Command to add and commit:
 - git commit -a -m "Commit message" -> to do both stages and commit at the same time
 - git branch < New Branch > : to create a new branch (the current branch will not change)
 - git checkout < branch/Sha1 > -> to switch to the branch or the commit
-- git merge < branchname > -> merge the Branch into the main
+- git merge < branch-name > -> merge the Branch into the main
 
 ### File tracking statuses
 - Untracked
