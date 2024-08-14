@@ -29,7 +29,7 @@ Command to add and commit:
 - git add -> to add the file to the stage area
 - git commit -m "Commit message" -> to add the file to the git repository
 - git commit -a -m "Commit message" -> to do both stages and commit at the same time
-- git branch < New Branch > : to create a new branch (the current branch will not change)
+- git branch < New Branch >: to create a new branch (the current branch will not change)
 - git checkout < branch/Sha1 > -> to switch to the branch or the commit
 - git merge < branch-name > -> merge the Branch into the main
 - git branch -d < branch-name > -> to delete the branch
@@ -47,7 +47,7 @@ Command to add and commit:
 - git remote add origin < The SSH URl > -> to connect the origin
 - git pull origin main -> to pull the remote repo and track the remote repo.
 - git merge origin/main -> to accept the remote changes
-- git f
+- git fetch origin/main -> to update the remote branch in your repository to point to the latest version. 
 
 
 
