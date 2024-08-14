@@ -28,9 +28,9 @@ Command to add and commit:
 - git add -> to add the file to the stage area
 - git commit -m "Commit message" -> to add the file to the git repository
 - git commit -a -m "Commit message" -> to do both stages and commit at the same time
-- git branch <New Branch> : to create a new branch (the current branch will not change)
-- git checkout <branch/Sha1> -> to switch to the branch or the commit
-- git merge <branchname> -> merge the Branch into the main
+- git branch < New Branch > : to create a new branch (the current branch will not change)
+- git checkout < branch/Sha1 > -> to switch to the branch or the commit
+- git merge < branchname > -> merge the Branch into the main
 
 ### File tracking statuses
 - Untracked
