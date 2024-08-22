@@ -57,6 +57,7 @@ Command to add and commit:
 - git fetch origin/main -> to update the remote branch in your repository to point to the latest version.
 - git push --all -> to push all the branches from main to remote
 - git clone <-- HTTPS--> -> Initializes git in local repository and pulls the remote repository.
+Testing
 
 
 
