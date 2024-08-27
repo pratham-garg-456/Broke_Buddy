@@ -1,7 +1,7 @@
 export default function HomePage() {
   return (
     <>
-      <div className="h-[92vh] flex items-center justify-center">
+      <div className="h-[92vh] flex items-center md:gap-24 justify-center">
         <div className="pl-8">
           <p className="text-4xl md:text-5xl font-inter font-semibold inline">
             Take Control of <br />
