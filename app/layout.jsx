@@ -16,7 +16,7 @@ export default function RootLayout({ header, main, footer }) {
       <main className="flex-grow p-4">{main}</main>
 
       {/* Footer */}
-      <footer className="bg-black h-28 text-white p-4">{footer}</footer>
+      <footer className="w-full bg-black h-8vh text-white p-4 fixed">{footer}</footer>
     </div>
   );
 }
