@@ -25,7 +25,7 @@ export default function HomePage() {
         </div>
         <img
           src="/home_page_image.png"
-          className="w-1/2 h-auto absolute bottom-0 right-0 md:static md:w-1/4"
+          className="w-1/2 h-auto absolute bottom-0 right-0 md:static md:w-1/4 -z-1"
         />
       </div>
     </>
