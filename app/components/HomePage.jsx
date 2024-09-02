@@ -2,7 +2,7 @@ export default function HomePage() {
   return (
     <>
       <div className="h-[92vh] flex items-center md:gap-24 justify-center">
-        <div className="pl-8">
+        <div className="pl-8 z-10">
           <p className="text-4xl md:text-5xl font-inter font-semibold inline">
             Take Control of <br />
             Your Finances <br />
@@ -11,7 +11,7 @@ export default function HomePage() {
 
           <br />
           <br />
-          <p className="text-2xl font-inter inline">
+          <p className="text-2xl rounded-md pr-1 font-inter inline bg-white/25">
             Easily track your expenses, manage your budget, and
             <br />
             visualize your spendings
