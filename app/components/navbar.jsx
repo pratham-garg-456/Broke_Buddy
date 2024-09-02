@@ -29,7 +29,7 @@ export default function Navbar() {
   return (
     <>
       {
-        <nav className="fixed md:flex md:flex-row w-full items-center border-b-2 border-black-300 bg-white">
+        <nav className="md:flex items-center border-b-2 border-black-300 bg-white">
           <div className="flex justify-between mx-8 my-4">
             <Link href="/">
               <Image className="size-10 object-contain" src={logo} alt="Logo" />
