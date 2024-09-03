@@ -10,13 +10,13 @@ export default function RootLayout({ header, main, footer }) {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <header>{header}</header>
+      <header className="z-20 fixed w-full bg-white">{header}</header>
 
       {/* Main Content */}
-      <main className="flex-grow p-4">{main}</main>
+      <main className="flex-grow ">{main}</main>
 
       {/* Footer */}
-      <footer className="bg-black h-28 text-white p-4 z-10">{footer}</footer>
+      <footer className="bg-black h-28 text-white p-4 z-20">{footer}</footer>
     </div>
   );
 }
