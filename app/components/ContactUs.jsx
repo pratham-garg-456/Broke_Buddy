@@ -48,7 +48,7 @@ export default function ContactUs() {
                     value={firstName}
                     onChange={(e) => setFirstName(e.target.value)}
                     placeholder="First Name"
-                    className="border- rounded-md border [#BEBFBF] p-2 w-full text-sm"
+                    className="border rounded-md border [#BEBFBF] p-2 w-full text-sm"
                   />
                 </div>
                 <div className="mb-2">
@@ -56,7 +56,7 @@ export default function ContactUs() {
                     value={lastName}
                     onChange={(e) => setLastName(e.target.value)}
                     placeholder="Last Name"
-                    className="border- rounded-md border [#BEBFBF] p-2 w-full text-sm"
+                    className="border rounded-md border [#BEBFBF] p-2 w-full text-sm"
                   />
                 </div>
 
@@ -65,7 +65,7 @@ export default function ContactUs() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Email"
-                    className="border- rounded-md border [#BEBFBF] p-2 w-full text-sm"
+                    className="border rounded-md border [#BEBFBF] p-2 w-full text-sm"
                   />
                 </div>
 
@@ -74,7 +74,7 @@ export default function ContactUs() {
                     value={phoneNumber}
                     onChange={(e) => setPhoneNumber(e.target.value)}
                     placeholder="Phone Number"
-                    className="border- rounded-md border [#BEBFBF] p-2 w-full text-sm"
+                    className="border rounded-md border [#BEBFBF] p-2 w-full text-sm"
                   />
                 </div>
 
@@ -83,7 +83,7 @@ export default function ContactUs() {
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     placeholder="Message"
-                    className="border- rounded-md border [#BEBFBF] p-2 w-full h-24 resize-none text-sm"
+                    className="border rounded-md border [#BEBFBF] p-2 w-full h-24 resize-none text-sm"
                   />
                 </div>
 

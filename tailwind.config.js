@@ -14,6 +14,7 @@ module.exports = {
       fontFamily: {
         inter: ['Inter'],
         poppins: ['Poppins'],
+        jockeyOne: ['Jockey One'],
       },
     },
   },
