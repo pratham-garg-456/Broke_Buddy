@@ -14,15 +14,15 @@ export default function LogIn() {
               className="border rounded-md border [#BEBFBF] p-2 w-full text-xs md:text-sm"
             />
           </div>
-          <div className="mb-3">
+          <div className="mb-6">
             <input
               placeholder="Password"
               type="Password"
               className="border rounded-md border [#BEBFBF] p-2 w-full text-xs md:text-sm"
             />
           </div>
-          <div className="flex justify-center mb-6">
-            <button type="submit" className="bg-black text-white rounded-md md:text-lg px-4 py-2">
+          <div className="flex justify-center mb-5">
+            <button type="submit" className="bg-black text-white rounded-md md:text-lg px-4 py-0.5">
               Login
             </button>
           </div>
@@ -33,7 +33,7 @@ export default function LogIn() {
             </p>
             <hr className="border-1 w-[40%] border-black border-[#B4B5B5] inline-block" />
           </div>
-          <div className="flex justify-center mb-7">
+          <div className="flex justify-center mb-9">
             <div className="mr-1">
               <Image className="w-6 object-contain" src={google} alt="<Member Photo>"></Image>
             </div>
@@ -45,7 +45,7 @@ export default function LogIn() {
           </div>
           <div className="flex justify-center mb-7">
             <p className="mr-1">Don&apos;t have an account? </p>
-            <button className="font-bold text-sm">Sign Up</button>
+            <button className="font-bold text-sm underline">Sign Up</button>
           </div>
         </div>
       </div>
