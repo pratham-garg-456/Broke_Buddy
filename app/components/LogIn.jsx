@@ -1,9 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import google from '../../public/google.png';
 export default function LogIn() {
   return (
     <div className="flex justify-center mt-28 mb-20 font-inter">
-      <div className="border border-[#BEBFBF] md:w-96">
+      <div className="border border-[#BEBFBF] w-80 md:w-96">
         <div className="p-10">
           <div className="mb-10">
             <p className="font-jockeyOne text-3xl text-center">BrokeBuddy</p>
@@ -45,7 +46,9 @@ export default function LogIn() {
           </div>
           <div className="flex justify-center mb-7">
             <p className="mr-1">Don&apos;t have an account? </p>
-            <button className="font-bold text-sm underline">Sign Up</button>
+            <Link href="/register" className="font-bold text-sm underline">
+              Sign Up
+            </Link>
           </div>
         </div>
       </div>

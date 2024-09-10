@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Link from 'next/link';
 export default function Register() {
   return (
     <div className="flex justify-center mt-28 mb-20 font-inter">
@@ -39,7 +39,9 @@ export default function Register() {
           </div>
           <div className="flex justify-center mb-6">
             <p className="mr-1">Have an account? </p>
-            <button className="font-bold text-sm underline">Log In</button>
+            <Link href="/login" className="font-bold text-sm underline">
+              Log In
+            </Link>
           </div>
         </div>
       </div>
