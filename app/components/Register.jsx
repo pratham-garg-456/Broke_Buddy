@@ -2,7 +2,7 @@ import Image from 'next/image';
 export default function Register() {
   return (
     <div className="flex justify-center mt-28 mb-20 font-inter">
-      <div className="border border-[#BEBFBF] md:w-96">
+      <div className="border border-[#BEBFBF] w-80 md:w-96">
         <div className="p-10">
           <div className="mb-10">
             <p className="font-jockeyOne text-3xl text-center">BrokeBuddy</p>
